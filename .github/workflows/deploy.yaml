@@ -63,3 +63,9 @@ jobs:
       #
       - name: Deploy
         run: ./scripts/deploy.sh
+
+
+      #
+      #Deleting the deployment resources
+      - name: Delete
+        run: ./scripts/delete.sh
